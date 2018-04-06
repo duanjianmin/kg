@@ -66,8 +66,8 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    # 'pic_download.pipelines.PicDownloadPipeline': 300,
-   # 'kgbookcom.pipelines.KgbookcomPipeline': 1,
-   'scrapy.pipelines.images.ImagesPipeline': 1,
+   'kgbookcom.pipelines.KgbookcomPipeline': 1,
+   # 'scrapy.pipelines.images.ImagesPipeline': 1,
 }
 
 # FILE_STORE = 'E:\\Python\\download\\file'

@@ -21,6 +21,7 @@ class kgbookSpider(scrapy.Spider):
         images = response.xpath('//*[@id="content"]/h1/text()').extract()
         item = KgbookcomItem()
         item['images'] = images
+        item['image_paths'] = images
         urls = []
 
         for iurl in imageUrls:

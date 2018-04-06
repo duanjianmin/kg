@@ -13,5 +13,5 @@ class KgbookcomItem(scrapy.Item):
     # name = scrapy.Field()
     image_urls = scrapy.Field()
     images = scrapy.Field()
-    image_path = scrapy.Field()
+    image_paths = scrapy.Field()
     pass
