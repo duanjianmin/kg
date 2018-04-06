@@ -9,4 +9,8 @@ from scrapy.pipelines.images import ImagesPipeline
 
 class KgbookcomPipeline(ImagesPipeline):
     def process_item(self, item, spider):
+        print('))))))))))))))))))))))))))))))))')
+        print(item['images'])
+        print(item['image_urls'])
+        print('))))))))))))))))))))))))))))))))')
         return item
